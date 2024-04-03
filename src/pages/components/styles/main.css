@@ -1,20 +1,24 @@
+body {
+    background-image: url('2353c4ce623b57482e851931777ff2bd.png'); /* Change 'background_image.jpg' to your image file */
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+  background-size: 100% 100%;
+}
 .buttons-container  {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     margin-top: 20px; /* Adjust the margin as needed */
     text-align: center;
-    background-image: url('2353c4ce623b57482e851931777ff2bd.png'); /* Change 'background_image.jpg' to your image file */
-    background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+    
 }
 
 .button {
     display: block;
     width: 200px; /* Adjust the width as needed */
     height: 50px; /* Adjust the height as needed */
-    background-color: #dcdfe2; /* Change the color as needed */
+    background-color: #d6dce2; /* Change the color as needed */
+    opacity:0,8;
     color: rgb(0, 0, 0);
     text-align: center;
     line-height: 50px;
