@@ -1,18 +1,10 @@
 .navbar {
   background-color: white;
   height: 50px; /* Adjust the height as needed */
-  width: 100%;
-  display: flex;
-  justify-content: space-between; /* Distribute items evenly */
+  width: 90%;
+  display:inline-block;
+  justify-content:flex-start; /* Distribute items evenly */
   align-items: center;
-  padding: 0 20px; /* Add padding to create space between logo and text */
+  padding: 0 1rem; /* Add padding to create space between logo and text */
 }
 
-.navbar-text {
-  margin: 0;
-  flex-grow: 1; /* Allow text to take up remaining space */
-  text-align: center; /* Align text to the center */
-}
-.navbar h1 {
-  margin: 0;
-}

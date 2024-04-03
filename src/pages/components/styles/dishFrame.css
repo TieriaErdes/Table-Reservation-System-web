@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    width: 300px; /* Adjust width as needed */
+    width: 1rem; /* Adjust width as needed */
     margin: 20px auto; /* Center the component */
     border: 1px solid #ccc;
     border-radius: 5px;
