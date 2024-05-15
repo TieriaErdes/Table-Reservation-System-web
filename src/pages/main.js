@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import "./components/styles/main.css"
-function Main(){
+function Main (){
     return (
     <><Navbar /><div class="buttons-container">
             <button class="button">Orders</button>
