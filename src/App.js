@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from './pages/menu'; // Import the Menu component
 import Main from "./pages/main";
 import Orders from "./pages/orders"
+import OrderInfo from "./pages/orderInfo"
 //import Navbar from "./pages/components/Navbar"
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Main />}></Route>
         <Route path="menu" element={<Menu />} />
         <Route path="orders" element={<Orders />} />
+        <Route path="order-info" element={<OrderInfo/>}/>
       </Routes>
     </BrowserRouter>
   );
