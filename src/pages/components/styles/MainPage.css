@@ -1,5 +1,5 @@
 body {
-    /*background-image: url('2353c4ce623b57482e851931777ff2bd.png'); /* Change 'background_image.jpg' to your image file */
+    background-image: url('2353c4ce623b57482e851931777ff2bd.png'); /* Change 'background_image.jpg' to your image file */
     background-repeat: no-repeat;
     background-attachment:fixed;
   background-size: 100% 100%;
@@ -40,21 +40,3 @@ body {
 
 
 
-.navbar {
-    background-color: white;
-    height: 50px; /* Adjust the height as needed */
-    width: 100%;
-    display: flex;
-    justify-content: space-between; /* Distribute items evenly */
-    align-items: center;
-    padding: 0 20px; /* Add padding to create space between logo and text */
-}
-
-.navbar-text {
-    margin: 0;
-    flex-grow: 1; /* Allow text to take up remaining space */
-    text-align: center; /* Align text to the center */
-}
-.navbar h1 {
-    margin: 0;
-}

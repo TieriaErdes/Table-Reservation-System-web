@@ -1,15 +1,18 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import "./components/styles/MainPage.css"
-import { useBackgroundImage } from "./components/UseBackgroundImage.js";
+
+import { Link } from "react-router-dom";
+
+
 function Main (){
-    useBackgroundImage("./components/styles/notification_bell.png");
+    
     return (
     <><Navbar />
     <div class="buttons-container">
-            <button class="button">Orders</button>
+    <Link to="/orders"><button class="button" >Orders</button></Link>
             <button class="button">Hall</button>
-            <button class="button">Menu</button>
+            <Link to="/menu"><button class="button" >Menu</button></Link>
             <button class="button">Designer</button>
         </div></>
     );

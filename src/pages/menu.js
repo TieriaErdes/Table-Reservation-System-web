@@ -1,13 +1,12 @@
 import React from 'react';
 import Navbar from './components/Navbar'; // Assuming Navbar component is in the same directory
 import "./components/styles/menu.css"
-import { useBackgroundImage } from "./components/UseBackgroundImage.js";
 import Dish from './components/dishFrame';
 function Menu() {
-  useBackgroundImage("./components/styles/notification_bell.png");
+  
   return (
+    <><Navbar/>
     <div className="menu-page">
-      <Navbar/>
       <div className="content">
         <div className="header">
           <h1>Menu Page</h1>
@@ -21,7 +20,7 @@ function Menu() {
           <Dish/>
         </div>
       </div>
-    </div>
+    </div></>
   );
   
 }

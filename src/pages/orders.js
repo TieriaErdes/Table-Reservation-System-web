@@ -1,20 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import OrderCard from "./components/OrderCard"
 import AddOrderButton from './components/AddOrderButton';
 import "./components/styles/orders.css"
-function Orders() {
-    return (
-      <div className="orders-page">
-        <nav><Navbar/></nav>
-        <div className="orders-container">
-            <OrderCard/>
-          <AddOrderButton  />
-        </div>
+
+
+
+
+const OrdersPage = () => {
+  const [orders, setOrders] = useState([]);
+
+  const addOrder = () => {
+    setOrders([...orders, {}]); // Добавляем пустой объект как новый заказ
+  };
+
+  return (
+    <><Navbar/>
+    <div className="orders-page">
+      <div className="orders-container">
+        {orders.map((order, index) => (
+          <OrderCard key={index} />
+        ))}
       </div>
-    );
-  }
-  
+      <AddOrderButton onClick={addOrder} />
+    </div></>
+  );
+};
 
-
-export default Orders;
+export default OrdersPage;

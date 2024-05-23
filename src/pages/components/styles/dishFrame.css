@@ -1,43 +1,55 @@
-.container {
-    position: relative;
-    width: 1rem; /* Adjust width as needed */
-    margin: 20px auto; /* Center the component */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-}
 
-.exit-button {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    cursor: pointer;
-}
-
-.photo {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-}
-
-.description {
-    margin-top: 10px;
-}
-
-.confirm-button {
-    display: block;
-    width: 100px; /* Adjust width as needed */
-    height: 40px; /* Adjust height as needed */
-    margin: 20px auto 0;
-    border: none;
-    border-radius: 20px; /* Half of height to make it round */
-    background-color: #007bff; /* Adjust color as needed */
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.confirm-button:hover {
-    background-color: #0056b3; /* Change the hover color as needed */
-}
+    .dish-card {
+      border-radius: 17px;
+      background-color: rgba(255, 255, 255, 0.4);
+      display: flex;
+      max-width: 350px;
+      width: 30rem;
+      flex-direction: column;
+      align-items: start;
+      font-size: 20px;
+      color: #000;
+      font-weight: 700;
+      padding: 13px 12px 23px;
+    }
+    .image-container {
+      display:inline-block;
+      align-items: start;
+      gap: 4px;
+      font-size: 24px;
+      text-align: center;
+      padding: 0 1px;
+      align-self: stretch;
+    }
+    .dish-image {
+      aspect-ratio: 0.83;
+      object-fit: fill;
+      object-position: center;
+      width: 60%;
+    }
+    .dish-name {
+      font-family: Inika, sans-serif;
+      margin: 15px 0 0 33px;
+    }
+    .dish-grams {
+      font-family: Inika, sans-serif;
+      margin: 15px 0 0 33px;
+    }
+    .dish-price {
+      font-family: Inika, sans-serif;
+      margin: 15px 0 0 33px;
+    }
+    .confirm-button {
+      font-family: Inika, sans-serif;
+      border-radius: 27px;
+      background-color: rgba(255, 255, 255, 0.85);
+      align-self: stretch;
+      margin-top: 20px;
+      align-items: center;
+      white-space: nowrap;
+      text-align: center;
+      justify-content: center;
+      padding: 20px 60px;
+      cursor: pointer;
+    }
+ 

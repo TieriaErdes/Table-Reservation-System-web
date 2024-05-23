@@ -33,15 +33,16 @@
   }
   
   .dish-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Change the number of columns as needed */
-    gap: 20px; /* Adjust the gap between dishes */
+    display: inline-flex;
+    width: 70px;
+    
+    /*grid-template-columns: repeat(2, 1fr); /* Change the number of columns as needed */
+    gap: 5rem; /* Adjust the gap between dishes */
   }
   
   
   /* Adjust the styling of each dish if necessary */
   .dish-frame {
-    width: 100%; /* Adjust the width of each dish frame */
+    width: 15rem; /* Adjust the width of each dish frame */
   }
   

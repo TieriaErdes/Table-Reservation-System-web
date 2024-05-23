@@ -1,10 +1,38 @@
 .navbar {
-  background-color: white;
-  height: 50px; /* Adjust the height as needed */
-  width: 90%;
-  display:inline-block;
-  justify-content:flex-start; /* Distribute items evenly */
+  display: flex;
   align-items: center;
-  padding: 0 1rem; /* Add padding to create space between logo and text */
+  justify-content: space-between;
+  height: 60px; /* Adjust the height as needed */
+  background-color: #ffffff; /* Background color of the navbar */
+  padding: 0 20px; /* Padding for the navbar */
+  color: rgb(0, 0, 0); /* Text color */
 }
 
+
+
+.bell_image, .home_image {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  height: 30px; /* Adjusted height of the images to fit the navbar better */
+  width: 30px; /* Adjusted width of the images */
+  object-fit: contain; /* Ensures the images fit within the specified dimensions */
+}
+
+.navbar-text {
+  flex: 1;
+  text-align: center;
+  font-size: 20px; /* Adjust the font size as needed */
+  margin: 0; /* Remove default margin */
+  color: rgb(0, 0, 0); /* Text color */
+}
+
+.bell_image {
+  margin-right: auto; /* Pushes the bell image to the far left */
+}
+
+.home_image {
+  margin-left: auto; /* Pushes the home image to the far right */
+}
